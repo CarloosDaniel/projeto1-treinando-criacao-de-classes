@@ -14,6 +14,6 @@ class User {
     }
 }
 
-const ray = new User('Ray', 'raysantiago10@gmail.com', 'ray123')
+const daniel = new User('Carlos', 'carlosdaniel.sx@gmail.com', 'daniel123')
 
-ray.login('raysantiago10@gmail.com', 'ray123')
+daniel.login('carlosdaniel.sx@gmail.com', 'daniel123')
