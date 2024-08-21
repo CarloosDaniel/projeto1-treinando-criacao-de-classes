@@ -1,4 +1,4 @@
-class Product {
+class Produto {
     constructor(name, descricão, preço, ){
         this.name = name
         this.descricão = descricão
