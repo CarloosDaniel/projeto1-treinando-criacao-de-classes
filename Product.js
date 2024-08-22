@@ -1,4 +1,4 @@
-class Produto {
+class Product {
     constructor(name, descricão, preço, ){
         this.name = name
         this.descricão = descricão
@@ -14,7 +14,7 @@ class Produto {
     }
 }
 
-const produto1 = new Produto('Creatina','Creatina pura', 1000)
+const produto1 = new Product('Creatina','Creatina pura', 1000)
 console.log(produto1)
 produto1.adicionarStock(10)
 console.log('Quantidade em estoque', produto1.inStock)
